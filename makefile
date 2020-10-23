@@ -1,4 +1,4 @@
-all:
+all: madness.c
 	gcc -o madness madness.c
-run:
+run: madness
 	./madness
